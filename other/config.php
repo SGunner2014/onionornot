@@ -8,8 +8,8 @@ class redditConfig{
     static $ENDPOINT_OAUTH_REDIRECT = 'http://localhost/reddit/test.php';
     
     //access token configuration from https://ssl.reddit.com/prefs/apps
-    static $CLIENT_ID = 'YOUR CLIENT ID';
-    static $CLIENT_SECRET = 'YOUR CLIENT SECRET';
+    static $CLIENT_ID = 'YuysQsY6CKcwdw';
+    static $CLIENT_SECRET = 'asVYaRAKYF5VvAdxwP93sP0-tlg';
     
     //access token request scopes
     //full list at http://www.reddit.com/dev/api/oauth
