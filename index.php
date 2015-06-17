@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 
+<?php
+
+  require_once("main.php");
+
+?>
+
 <html>
   <head>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -25,7 +31,7 @@
       </nav> 
         <h1 style="text-align:center;">Onion or Not?</h1>
         <hr/>
-            <h1 style="text-align:center;">BlahBlahBlah</h1>
+            <h1 style="text-align:center;"><?php printSub(); ?></h1>
     </div class="container">
 
     <div class="container">
@@ -48,7 +54,7 @@
         <div class="media">
           <a class="pull-left" href="#">    <img class="media-object" src="imagehere">  </a>
           <div class="media-body">
-            <h4 class="media-heading">Reddit Post Title Repreated</h4>
+            <h4 class="media-heading"><?php echo $title; ?></h4>
             <p>BlahBlahBlah</p>
           </div>
         </div>

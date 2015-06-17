@@ -23,6 +23,7 @@ function printSub() {
 	$part = $tmpArray[1];
 	$sub = getSub($part);
 	echo '<p id="'.$sub.'">'.$part['title'].'</p>';
+	$title = $part['title'];
 }
 
 /*
