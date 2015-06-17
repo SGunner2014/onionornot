@@ -6,6 +6,11 @@ $feed = implode(file('http://reddit.com/r/nottheonion.rss'));
 $xml = simplexml_load_string($feed);
 $json = json_encode($xml);
 $array = json_decode($json,TRUE);
+$feed = implode(file('http://reddit.com/r/theonion.rss'));
+$xml = simplexml_load_string($feed);
+$json = json_encode($xml);
+$array2 = json_decode($json,TRUE);
+array_push($array, $array2);
 //print_r($array['channel']);
 
 function getSub($arr) {
