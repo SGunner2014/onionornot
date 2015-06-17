@@ -32,7 +32,7 @@
       </nav> 
         <h1 style="text-align:center;">Onion or Not?</h1>
         <hr/>
-            <?php printSub($array); ?>
+            <?php $title, $link = printSub($array); ?>
     </div class="container">
 
     <div class="container">
@@ -53,7 +53,7 @@
           <a class="pull-left" href="#">    <img class="media-object" src="imagehere">  </a>
           <div class="media-body">
             <h4 class="media-heading"><?php echo $title; ?></h4>
-            <p>BlahBlahBlah</p>
+            <a href="<?php echo $link; ?>">Original Article</a>
             <button type="button" onclick="location.reload()" class="btn btn-primary btn-lg btn-block">Play Again!</button>
           </div>
         </div>
@@ -67,7 +67,7 @@
           <a class="pull-left" href="#">    <img class="media-object" src="imagehere">  </a>
           <div class="media-body">
             <h4 class="media-heading"><?php echo $title; ?></h4>
-            <p>BlahBlahBlah</p>
+            <a href="<?php echo $link; ?>">Original Article</a>
             <button type="button" class="btn btn-primary btn-lg btn-block" onclick="location.reload()">Play Again!</button>
           </div>
         </div>
