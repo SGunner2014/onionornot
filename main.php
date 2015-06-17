@@ -2,11 +2,11 @@
 
 <?php
 
-$feed = implode(file('http://reddit.com/r/nottheonion.rss'));
+$feed = implode(file('http://reddit.com/r/nottheonion.rss?limit=100'));
 $xml = simplexml_load_string($feed);
 $json = json_encode($xml);
 $array = json_decode($json,TRUE);
-$feed = implode(file('http://reddit.com/r/theonion.rss'));
+$feed = implode(file('http://reddit.com/r/theonion.rss?limit=100'));
 $xml = simplexml_load_string($feed);
 $json = json_encode($xml);
 $array2 = json_decode($json,TRUE);
