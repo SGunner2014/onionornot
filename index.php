@@ -69,7 +69,6 @@
           <a class="pull-left" href="#">    <img class="media-object" src="imagehere">  </a>
           <div class="media-body">
             <a href="<?php echo $link; ?>"><h4 class="media-heading"><?php echo $title; ?></h4></a>
-            <a href="<?php echo $link; ?>">Original Article</a>
             <button type="button" class="btn btn-primary btn-lg btn-block" onclick="location.reload()">Play Again!</button>
           </div>
         </div>
