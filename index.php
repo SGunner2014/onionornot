@@ -9,7 +9,7 @@
         <link href="bootstrap/font-awesome.min.css" rel="stylesheet">
   </head>
     <body>
-    <div class=container>
+    <div class="container">
     <nav class="navbar navbar-inverse" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -26,9 +26,9 @@
         <h1 style="text-align:center;">Onion or Not?</h1>
         <hr/>
             <h1 style="text-align:center;">BlahBlahBlah</h1>
-    </div class=container>
+    </div class="container">
 
-    <div class=container>
+    <div class="container">
 
         <button type="button" class="btn btn-success btn-lg btn-block">            
             <i class="fa fa-check fa-2x pull-left"></i>Onion!</a>
@@ -37,7 +37,23 @@
             <i class="fa fa-times fa-2x pull-left"></i>NOnion!</a>
         </button>
      </div>
-
+     <!-- The alerts !-->
+    <div class="container" style="display:none;">
+      <div class="alert alert-warning alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+      </div>
+      <div class="alert alert-dismissable alert-success">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <b>Correct!</b>
+        <div class="media">
+          <a class="pull-left" href="#">    <img class="media-object" src="imagehere">  </a>
+          <div class="media-body">
+            <h4 class="media-heading">Reddit Post Title Repreated</h4>
+            <p>BlahBlahBlah</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer><a href="/credits"</a></footer>
     </body>
 </html>
