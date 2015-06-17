@@ -8,9 +8,9 @@ $(document).ready(function() {
 	$('#false').click(function() {
 
 		if ( $('#onion').length > 1 ) { //Chosen the correct choice, it is the onion.
-			$('.correctAnswer').slideDown();
+			$('#correctAnswer').slideDown();
 		} else {
-			$('.wrongAnswer').slideDown();
+			$('#wrongAnswer').slideDown();
 		}
 
 	});
@@ -18,9 +18,9 @@ $(document).ready(function() {
 	$('#true').click(function() {
 
 		if ( $('#notonion').length > 1 ) {
-			$('.correctAnswer').slideDown();
+			$('#correctAnswer').slideDown();
 		} else {
-			$('.wrongAnswer').slideDown();
+			$('#wrongAnswer').slideDown();
 		}
 
 	});
