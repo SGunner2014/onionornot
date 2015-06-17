@@ -39,6 +39,8 @@ function printSub($array) {
 	return array("title" => $part['title'], "link" => $part['link']);
 }
 
+printSub($array);
+
 /*
 foreach($array['channel']['item'] as $art) {
 	$sub = getSub($art);
