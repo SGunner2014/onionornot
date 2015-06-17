@@ -10,6 +10,7 @@
   <head>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="scripts/oornot.js"></script>
         <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
         <link href="bootstrap/font-awesome.css" rel="stylesheet">
         <link href="bootstrap/font-awesome.min.css" rel="stylesheet">
