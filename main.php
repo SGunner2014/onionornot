@@ -10,7 +10,13 @@ $feed = implode(file('http://reddit.com/r/theonion.rss'));
 $xml = simplexml_load_string($feed);
 $json = json_encode($xml);
 $array2 = json_decode($json,TRUE);
-array_push($array, $array2);
+//print_r($array);
+
+for ($i=1; $i<count($array2['channel']['item']); $i++) {
+	array_push($array['channel']['item'], $array2['channel']['item'][$i]);
+}
+
+//array_push($array['channel']['item'], $array2['channel']['item']);
 //print_r($array['channel']);
 
 function getSub($arr) {
@@ -24,11 +30,12 @@ function getSub($arr) {
 
 function printSub($array) {
 	$tmpArray = $array['channel']['item'];
+	//print_r($array);
 	shuffle($tmpArray);
-	print_r($tmpArray);
+	//print_r($tmpArray);
 	$part = $tmpArray[1];
 	$sub = getSub($part);
-	echo '<p id="'.$sub.'">'.$part['title'].'</p>';
+	echo '<h1 style="text-align:center;" id="'.$sub.'">'.$part['title'].'</h1>';
 	$title = $part['title'];
 }
 
