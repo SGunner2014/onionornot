@@ -54,6 +54,22 @@
         </div>
       </div>
     </div>
+     <div class="container" style="display:none;">
+      <div class="alert alert-warning alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+      </div>
+      <div class="alert alert-dismissable alert-danger">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <b>Incorrect!</b>
+        <div class="media">
+          <a class="pull-left" href="#">    <img class="media-object" src="https://builder.divshot.com/img/placeholder-64x64.gif">  </a>
+          <div class="media-body">
+            <h4 class="media-heading">Reddit Post Title Repreated</h4>
+            <p>BlahBlahBlah</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer><a href="/credits"</a></footer>
     </body>
 </html>
