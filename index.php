@@ -32,7 +32,10 @@
       </nav> 
         <h1 style="text-align:center;">Onion or Not?</h1>
         <hr/>
-            <?php printSub($array); ?>
+            <?php $tmpArr = printSub($array);
+              $title = $tmpArr['title'];
+              $link = $tmpArr['link'];
+            ?>
     </div class="container">
 
     <div class="container">
@@ -50,10 +53,9 @@
         <button type="button" class="close" data-dismiss="alert">&times;</button>
         <b>Correct!</b>
         <div class="media">
-          <a class="pull-left" href="#">    <img class="media-object" src="imagehere">  </a>
+          <a class="pull-left" href="#"></a>
           <div class="media-body">
-            <h4 class="media-heading"><?php echo $title; ?></h4>
-            <p>BlahBlahBlah</p>
+            <a href="<?php echo $link; ?>"><h4 class="media-heading"><?php echo $title; ?></h4></a>
             <button type="button" onclick="location.reload()" class="btn btn-primary btn-lg btn-block">Play Again!</button>
           </div>
         </div>
@@ -64,10 +66,9 @@
         <button type="button" class="close" data-dismiss="alert">&times;</button>
         <b>Incorrect!</b>
         <div class="media">
-          <a class="pull-left" href="#">    <img class="media-object" src="imagehere">  </a>
+          <a class="pull-left" href="#"></a>
           <div class="media-body">
-            <h4 class="media-heading"><?php echo $title; ?></h4>
-            <p>BlahBlahBlah</p>
+            <a href="<?php echo $link; ?>"><h4 class="media-heading"><?php echo $title; ?></h4></a>
             <button type="button" class="btn btn-primary btn-lg btn-block" onclick="location.reload()">Play Again!</button>
           </div>
         </div>

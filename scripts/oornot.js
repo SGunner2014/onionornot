@@ -7,20 +7,28 @@ $(document).ready(function() {
 
 	$('#false').click(function() {
 
-		if ( $('#notonion').length ) { //Chosen the correct choice, it is the onion.
-			$('#correctAnswer').slideDown();
-		} else {
-			$('#wrongAnswer').slideDown();
+		if ( $('#correctAnswer').css('display') === 'none' && $('#wrongAnswer').css('display') === 'none') {
+
+			if ( $('#notonion').length ) { //Chosen the correct choice, it is the onion.
+				$('#correctAnswer').slideDown();
+			} else {
+				$('#wrongAnswer').slideDown();
+			}
+
 		}
 
 	});
 
 	$('#true').click(function() {
 
-		if ( $('#onion').length ) {
-			$('#correctAnswer').slideDown();
-		} else {
-			$('#wrongAnswer').slideDown();
+		if ( $('#correctAnswer').css('display') === 'none' && $('#wrongAnswer').css('display') === 'none') {
+
+			if ( $('#onion').length ) {
+				$('#correctAnswer').slideDown();
+			} else {
+				$('#wrongAnswer').slideDown();
+			}
+
 		}
 
 	});
