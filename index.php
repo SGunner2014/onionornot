@@ -32,7 +32,7 @@
       </nav> 
         <h1 style="text-align:center;">Onion or Not?</h1>
         <hr/>
-            <h1 style="text-align:center;"><?php printSub(); ?></h1>
+            <h1 style="text-align:center;"><?php printSub($array); ?></h1>
     </div class="container">
 
     <div class="container">

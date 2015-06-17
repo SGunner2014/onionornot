@@ -22,9 +22,10 @@ function getSub($arr) {
 	}
 }
 
-function printSub() {
+function printSub($array) {
 	$tmpArray = $array['channel']['item'];
 	shuffle($tmpArray);
+	print_r($tmpArray);
 	$part = $tmpArray[1];
 	$sub = getSub($part);
 	echo '<p id="'.$sub.'">'.$part['title'].'</p>';
