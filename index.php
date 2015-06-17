@@ -69,7 +69,7 @@
         <button type="button" class="close" data-dismiss="alert">&times;</button>
         <b>Incorrect!</b>
         <div class="media">
-          <a class="pull-left" href="#">    <img class="media-object" src="https://builder.divshot.com/img/placeholder-64x64.gif">  </a>
+          <a class="pull-left" href="#">    <img class="media-object" src="imagehere">  </a>
           <div class="media-body">
             <h4 class="media-heading"><?php echo $title; ?></h4>
             <p>BlahBlahBlah</p>
