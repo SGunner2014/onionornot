@@ -32,7 +32,10 @@
       </nav> 
         <h1 style="text-align:center;">Onion or Not?</h1>
         <hr/>
-            <?php $title, $link = printSub($array); ?>
+            <?php $tmpArr = printSub($array);
+              $title = $tmpArr['title'];
+              $link = $tmpArr['link'];
+            ?>
     </div class="container">
 
     <div class="container">

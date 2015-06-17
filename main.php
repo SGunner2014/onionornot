@@ -36,7 +36,7 @@ function printSub($array) {
 	$part = $tmpArray[1];
 	$sub = getSub($part);
 	echo '<h1 style="text-align:center;" id="'.$sub.'">'.$part['title'].'</h1>';
-	return $part['title'], $part['link'];
+	return array("title" => $part['title'], "link" = $part['link']);
 }
 
 /*
