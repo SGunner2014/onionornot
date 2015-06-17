@@ -5,6 +5,11 @@
 
 $(document).ready(function() {
 
+	$('.close').click(function() {
+		$('.correctAnswer').slideUp();
+		$('.wrongAnswer').slideUp();
+	});
+
 	$('#false').click(function() {
 
 		if ( $('#correctAnswer').css('display') === 'none' && $('#wrongAnswer').css('display') === 'none') {

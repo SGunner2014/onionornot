@@ -47,6 +47,9 @@
             <i class="fa fa-times fa-2x pull-left"></i>NOnion!</a>
         </button>
      </div>
+
+     <br/>
+
      <!-- The alerts !-->
     <div class="container" id="correctAnswer" style="display:none;">
       <div class="alert alert-dismissable alert-success">
