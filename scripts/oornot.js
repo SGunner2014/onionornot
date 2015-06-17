@@ -7,19 +7,17 @@ $(document).ready(function() {
 
 	$('#false').click(function() {
 
-		if ( $('#notonion').length > 1 ) { //Chosen the correct choice, it is the onion.
-			//$('#correctAnswer').slideDown();
-			alert("corr");
+		if ( $('#notonion').length ) { //Chosen the correct choice, it is the onion.
+			$('#correctAnswer').slideDown();
 		} else {
-			//$('#wrongAnswer').slideDown();
-			alert("Wrong");
+			$('#wrongAnswer').slideDown();
 		}
 
 	});
 
 	$('#true').click(function() {
 
-		if ( $('#onion').length > 1 ) {
+		if ( $('#onion').length ) {
 			$('#correctAnswer').slideDown();
 		} else {
 			$('#wrongAnswer').slideDown();

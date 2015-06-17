@@ -54,7 +54,7 @@
           <div class="media-body">
             <h4 class="media-heading"><?php echo $title; ?></h4>
             <p>BlahBlahBlah</p>
-            <button type="button" class="btn btn-primary btn-lg btn-block" src="/index.php">Play Again!</button>
+            <button type="button" onclick="location.reload()" class="btn btn-primary btn-lg btn-block">Play Again!</button>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@
           <div class="media-body">
             <h4 class="media-heading"><?php echo $title; ?></h4>
             <p>BlahBlahBlah</p>
-            <button type="button" class="btn btn-primary btn-lg btn-block" src="/index.php">Play Again!</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick="location.reload()">Play Again!</button>
           </div>
         </div>
       </div>
