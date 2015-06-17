@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 	$('#false').click(function() {
 
-		if ( $('#onion').length > 1 ) { //Chosen the correct choice, it is the onion.
+		if ( $('#notonion').length > 1 ) { //Chosen the correct choice, it is the onion.
 			//$('#correctAnswer').slideDown();
 			alert("corr");
 		} else {
@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 	$('#true').click(function() {
 
-		if ( $('#notonion').length > 1 ) {
+		if ( $('#onion').length > 1 ) {
 			$('#correctAnswer').slideDown();
 		} else {
 			$('#wrongAnswer').slideDown();
