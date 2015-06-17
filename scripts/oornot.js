@@ -6,12 +6,12 @@
 $(document).ready(function() {
 
 	$('.close').click(function() {
-		$('.correctAnswer').slideUp();
-		$('.wrongAnswer').slideUp();
+		$('#correctAnswer').slideUp();
+		$('#wrongAnswer').slideUp();
 	});
 
 	$('#false').click(function() {
-
+ 
 		if ( $('#correctAnswer').css('display') === 'none' && $('#wrongAnswer').css('display') === 'none') {
 
 			if ( $('#notonion').length ) { //Chosen the correct choice, it is the onion.
