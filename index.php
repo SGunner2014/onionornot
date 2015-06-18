@@ -15,6 +15,8 @@
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/fonts/font-awesome.css" rel="stylesheet">
         <link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/centerchart.css" rel="stylesheet">
+
         <link rel="icon" 
       type="image/ico" 
       href="assets/favicon.ico">
@@ -83,6 +85,29 @@
         </div>
       </div>
     </div>
+<div class="container">
+<canvas id="noCorrect" width="600" height="400"></canvas>
+<script>
+var noCorrect= document.getElementById("noCorrect").getContext("2d");
+var pieData = [
+	{
+		value: 60,
+		color:"#2c8d3a"
+	},
+	{
+		value : 40,
+		color : "#bc271c"
+	},
+];
+var pieOptions = {
+	segmentShowStroke : false,
+	animateScale : true
+}
+
+new Chart(noCorrect).Pie(pieData, pieOptions);
+
+</script>
+</div>
     <footer><a href="/credits"</a></footer>
     </body>
 </html>
