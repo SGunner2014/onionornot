@@ -38,7 +38,6 @@
       </nav> 
         <h1 style="text-align:center;">Onion or Not?</h1>
         <hr/>
-        <h3 style="text-align:center;">Score Goes Here</h3>
             <?php $tmpArr = printSub($array);
               $title = $tmpArr['title'];
               $link = $tmpArr['link'];
