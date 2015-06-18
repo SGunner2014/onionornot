@@ -18,6 +18,8 @@
         <link rel="icon" 
       type="image/ico" 
       href="assets/favicon.ico">
+      <title>Onion or Not?</title>
+
   </head>
     <body>
     <div class="container">
