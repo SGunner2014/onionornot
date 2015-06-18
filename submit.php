@@ -15,7 +15,7 @@
 				$id = $record['id'];
 				if ($_GET['score'] === -1) { //Answer incorrect, adding one to incorr
 					$incorr = $record['incorr'];
-					$query = "UPDATE answers SET incorr=".$incorr-1." WHERE id = ".$id."";
+					$query = "UPDATE answers SET incorr = '".($incorr-1)."' WHERE id = '".$id."'";
 					$conn->query($query);
 				} elseif ($_GET['score'] === 1) {
 					$corr = $record['corr'];
