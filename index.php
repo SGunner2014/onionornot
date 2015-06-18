@@ -84,7 +84,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div><!--
 <div class="container">
 <canvas id="noCorrect" width="600" height="400"></canvas>
 <script>
@@ -105,7 +105,7 @@ var pieOptions = {
 }
 
 new Chart(noCorrect).Pie(pieData, pieOptions);
-
+-->
 </script>
 </div>
     <footer><a href="/credits"</a></footer>
