@@ -1,7 +1,5 @@
 <meta charset="UTF-8">
 
-<?php header('Access-Control-Allow-Origin: *'); ?>
-
 <?php
 
 $feed = implode(file('http://reddit.com/r/nottheonion.rss?limit=100'));
@@ -37,11 +35,9 @@ function printSub($array) {
 	//print_r($tmpArray);
 	$part = $tmpArray[1];
 	$sub = getSub($part);
-	echo '<h1 style="text-align:center;" id="'.$sub.'">'.$part['title'].'</h1>';
+	echo '<h1 style="text-align:center;" id="'.$sub.'">'.strtoupper($part['title']).'</h1>';
 	return array("title" => $part['title'], "link" => $part['link']);
 }
-
-printSub($array);
 
 /*
 foreach($array['channel']['item'] as $art) {
