@@ -33,7 +33,7 @@ function printSub($array) {
 	//print_r($array);
 	shuffle($tmpArray);
 	for ($i=1; $i<count($tmpArray); $i++) {
-		if (!strpos($tmpArray[$i]['title'], 'onion')) {
+		if (!strpos(strtolower($tmpArray[$i]['title']), 'onion')) {
 
 		} else {
 			unset($tmpArray[$i]);
