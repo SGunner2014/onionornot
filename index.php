@@ -84,7 +84,19 @@
           </div>
         </div>
       </div>
-    </div><!--
+    </div>
+    <div class="container">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Main -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-4685817100093759"
+     data-ad-slot="7990511222"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+    <!--
 <div class="container">
 <canvas id="noCorrect" width="600" height="400"></canvas>
 <script>
