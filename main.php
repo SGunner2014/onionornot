@@ -1,5 +1,7 @@
 <meta charset="UTF-8">
 
+<?php header('Access-Control-Allow-Origin: *'); ?>
+
 <?php
 
 $feed = implode(file('http://reddit.com/r/nottheonion.rss?limit=100'));
