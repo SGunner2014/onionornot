@@ -10,14 +10,14 @@
   <head>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="bootstrap/charts.js"></script>
+        <script src="assets/js/charts.js"></script>
         <script src="scripts/oornot.js"></script>
-        <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
-        <link href="bootstrap/font-awesome.css" rel="stylesheet">
-        <link href="bootstrap/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/fonts/font-awesome.css" rel="stylesheet">
+        <link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
         <link rel="icon" 
       type="image/ico" 
-      href="bootstrap/favicon.ico">
+      href="assets/favicon.ico">
   </head>
     <body>
     <div class="container">
