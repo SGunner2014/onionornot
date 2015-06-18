@@ -32,6 +32,13 @@ function printSub($array) {
 	$tmpArray = $array['channel']['item'];
 	//print_r($array);
 	shuffle($tmpArray);
+	for ($i=1; $i<count($tmpArray); $i++) {
+		if (!strpos($tmpArray[$i]['title'], 'onion')) {
+
+		} else {
+			unset($tmpArray[$i]);
+		}
+	}
 	//print_r($tmpArray);
 	$part = $tmpArray[1];
 	$sub = getSub($part);
