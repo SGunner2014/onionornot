@@ -67,7 +67,7 @@
           <a class="pull-left" href="#"></a>
           <div class="media-body">
             <a href="<?php echo $link; ?>" target="_blank><h4 class="media-heading"><?php echo $title; ?></h4></a>
-            <button type="button" onclick="location.reload()" class="btn btn-primary btn-lg btn-block">Play Again!</button>
+            <button type="button" onclick="location.reload()" class="btn btn-success btn-lg btn-block">Play Again!</button>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@
           <a class="pull-left" href="#"></a>
           <div class="media-body">
             <a href="<?php echo $link; ?>" target="_blank><h4 class="media-heading"><?php echo $title; ?></h4></a>
-            <button type="button" class="btn btn-primary btn-lg btn-block" onclick="location.reload()">Play Again!</button>
+            <button type="button" class="btn btn-danger btn-lg btn-block" onclick="location.reload()">Play Again!</button>
           </div>
         </div>
       </div>
